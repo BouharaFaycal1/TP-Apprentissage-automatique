@@ -1,0 +1,28 @@
+accurency c'est la precesion quand on a 1 sa veut dire ya pas derreur 
+
+
+apres la 1er epoch sa deminue   plus qu'on augmente le nmbr d'epoch on aura le bon resultat
+
+
+
+//tp3
+
+
+loss  
+
+la metrique regarde les resultat de chacue nurone 
+
+imagine : 
+
+
+
+0		0		0		0		0		0		0		1		0		0
+
+
+0		1		2		3		4		5		6		7		8		9		
+0.01 0.10		0.7		0.2		0.04	0.003 	0.2		0.3		0.03	0.01
+
+
+loss elle permet de corriger la valeur du nurone
+
+la metrque elle nous dit juste si le reultat est correct

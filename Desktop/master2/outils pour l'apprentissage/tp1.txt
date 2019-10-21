@@ -1,0 +1,5 @@
+cette figure nous dit que ya deux class d'espéces 1ere class qui contient
+ l'espéce setosa et la 2éme class qui contients les deux éspéce versicolor et virginica 
+ 
+ nous remerquons dans cette figures que lespéce setosa est plus grande dans la largeur de sepal et plus petite e,n longeur de sépale 
+  contrairemnt aux 2 éspece versicolor et virginica qui sont plus grnade en longeur de sépal 
