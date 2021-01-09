@@ -1,0 +1,17 @@
+.bg {
+    /* The image used */
+    background-image: url("http://localhost/img/bricoleur9.jpg");
+    /* Full height */
+  
+    /* Center and scale the image nicely */
+  
+    background-repeat: no-repeat;
+  
+
+    height:auto; 
+    width:auto;
+	min-height:100vh; 
+	
+	background-size:cover; 
+	background-position:center;
+  }

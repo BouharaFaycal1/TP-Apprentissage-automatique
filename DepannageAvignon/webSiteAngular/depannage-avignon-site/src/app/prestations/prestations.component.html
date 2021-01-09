@@ -1,0 +1,29 @@
+<div class="panel-heading">Préstations</div>
+<!-- <div class = "container">
+    <div class="card-deck" *ngIf="prestations !== undefined">
+        <div class="card" *ngFor= "let P of prestations.prestations" routerLink="/">
+          <img class="card-img-top" src="http://localhost/img/{{P.image}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{p.libelle}}</h5>
+            
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+      </div>
+</div> -->
+
+
+<div class="row">
+    <div class="card-deck" *ngIf="prestations !== undefined">
+      <div class="card W-50" *ngFor= "let p of prestations.prestations" >
+        <div class="card-body">
+          <h5 class="card-title">{{p.libelle}}</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+

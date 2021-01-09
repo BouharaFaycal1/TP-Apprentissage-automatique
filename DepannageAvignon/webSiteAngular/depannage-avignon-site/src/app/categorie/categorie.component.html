@@ -1,0 +1,19 @@
+<div class="panel-heading">
+  Catégories</div>
+<div class="container">
+  <div class="card-deck" *ngIf="categories !== undefined">
+    <div class="card" *ngFor="let c of categories.categories"  (click) = redirectTo(c) routerLink="/">
+    
+        <img class="card-img-top" src="http://localhost/img/{{c.image}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{c.libelle}}</h5>
+          <p class="card-text">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      
+
+    </div>
+
+  </div>
+</div>
